@@ -1,0 +1,28 @@
+{
+  "issues": [
+    {
+      "title": "msi gp 63 leopard 8rd",
+      "details": "keypad broke, ram add, ssd add",
+      "complete": true,
+      "id": 3
+    },
+    {
+      "title": "dell inspiron 5459",
+      "details": "power button broke",
+      "complete": true,
+      "id": 4
+    },
+    {
+      "title": "dell inspiron 5459",
+      "details": "battery dead",
+      "complete": true,
+      "id": 5
+    },
+    {
+      "title": "dell inspiron 5459",
+      "details": "fan dead",
+      "complete": true,
+      "id": 6
+    }
+  ]
+}
