@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import AddIssue from '../views/AddIssue.vue'
 import EditIssue from '../views/EditIssue.vue'
+import NotFound  from '../components/NotFound.vue'
 
 const routes = [
   {
@@ -19,6 +20,10 @@ const routes = [
     name: 'editissue',
     component: EditIssue,
     props: true,
+  },
+  {
+    path: '/:catchAll(.*)',
+    component: NotFound,
   }
 ]
 
